@@ -1,7 +1,6 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:fundraiser/Screen/home_screen.dart';
-import 'package:fundraiser/Screen/second_screen.dart';
 
 void main(){
   runApp(MyApp());
@@ -94,7 +93,7 @@ class _MyAppState extends State<MyApp> {
         CountryLocalizations.delegate,
       ],
       debugShowCheckedModeBanner: false,
-      home: SecondPage(),
+      home: HomeScreen(),
     );
   }
 }
